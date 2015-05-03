@@ -1,0 +1,23 @@
+{
+  "name": "bastet-site",
+  "version": "0.0.1",
+  "homepage": "https://github.com/datkinson/bastet-site",
+  "authors": [
+    "Daniel Atkinson <hourd.tasa@gmail.com>"
+  ],
+  "description": "Website for the Bastet project",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "1.3.x",
+    "winstore-jscompat": "https://github.com/MSOpenTech/winstore-jscompat.git",
+    "angular-aria": "1.3.x",
+    "angular-material": "*"
+  }
+}
