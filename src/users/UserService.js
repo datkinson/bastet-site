@@ -21,6 +21,7 @@
         status: 'Coming Soon',
         content: 'Proxy Application to link between all different kinds of home automation / internet of things devices.',
         git: 'https://github.com/martindevans/bastet',
+        install: 'curl http://bastet.link/scripts/install-bastet | sh',
         projectName: 'Bastet'
       },
       {

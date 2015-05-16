@@ -44,6 +44,7 @@
           <h2>{{ul.selected.name}}</h2>
           <h3>{{ul.selected.status}}</h3>
           <p>{{ul.selected.content}}</p>
+          <p ng-if="ul.selected.install">Install the server by running the following command: <br /><pre>{{ul.selected.install}}</pre><br />This will download bastet into the current folder so please put it somehwere sensible.</p>
           <p>Check out the project on github <a href="{{ul.selected.git}}">{{ul.selected.projectName}}</a></p>
         </md-content>
 
