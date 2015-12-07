@@ -15,23 +15,23 @@
   function UserService($q){
     var users = [
       {
-        name: 'Server',
+        name: 'Hub',
         avatar: 'svg-1',
         icon: '/img/icon-black.svg',
         status: 'Coming Soon',
         content: 'Proxy Application to link between all different kinds of home automation / internet of things devices.',
-        git: 'https://github.com/martindevans/bastet',
+        git: 'https://github.com/bastet/hub',
         install: 'curl http://bastet.link/scripts/install-bastet | sh',
-        projectName: 'Bastet'
+        projectName: 'Bastet-Hub'
       },
       {
-        name: 'Client',
+        name: 'Device',
         avatar: 'svg-2',
         icon: '/img/icon-white.svg',
         status: 'Coming Soon',
-        content: 'A client application to manage and interact with baset via its open API',
-        git: 'https://github.com/datkinson/bastet-node',
-        projectName: 'Bastet-Node'
+        content: 'A client application to manage and interact with baset-hub via its open API',
+        git: 'https://github.com/bastet/device',
+        projectName: 'Bastet-Device'
       }
     ];
 
